@@ -1,71 +1,55 @@
 <!DOCTYPE html>
-<style>
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
+<html>
+    <head>
+        <title>Google</title>
+        <link rel="stylesheet" herf="CSS/style.css" type="text/css">
 
-li {
-  display: inline;
-  float: right;
-}
-
-footer{
-display: inline;
-  float: left ;
-}
-a {
-  display: block;
-  padding: 8px;
-  background-color: #dddddd;
-}
-img {
-    align-self: auto;
-
-}
-</style>
-
-<head>
-<title>Goooooooogle</title>
-</head>
-<header>   <ul>
-    <li><a href="default.asp">Gmail  </a></li>
-    <li><a href="news.asp">  Imagenes</a></li>
-    <li><a href="contact.asp">  Iniciar Sesion</a></li>
-
-  </ul> 
-</header>
+    </head>
 <body>
- 
-<center>
-    <img src="logo.png" alt="Google's logo"></div>
 
-    <br>
-    <br>
+<div class="container">
+
+    <div class="header"> 
+        <a href="#">Gmail</a>
+        <a href="#">Imagenes</a>
+        <a href="#">Iniciar Sesion</a>
+    </div>
+
+<div class="logo">
+    <img src="logo.png">
+</div>
+
 <form>
- <input type="text">
+<div class="search">
+    <input type="text">
+</div>    
+<div class="buttons">
+    <button>Busca con Google</button>
+    <button>Me siento con suerte</button>
+</div>
 </form>
-<br>
-<input value="Buscar con Google" aria-label="Buscar con Google" name="btnK" type="submit">
-</center>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<footer>
-   <ul>
-        <li><a href="default.asp">Publicidad  </a></li>
-        <li><a href="news.asp">  Negocios</a></li>
-        <li><a href="contact.asp">  Como funciona Google</a></li>
-    
-      </ul> 
-</footer>
+</div>   
+
+<div class="footer">
+
+<div id="footerTop">
+    <span id="country">Argentina</span>
+</br>
+</div>
+<div id="footerBottom">
+
+    <a href="#" class="links-left">Publicidad</a>
+    <a href="#" class="links-left">Acerca de</a>
+    <a href="#" class="links-left">Negocios</a>
+    <a href="#" class="links-left">Como funciona</a>
+ 
+ 
+    <a href="#" class="links-right">Configuracion</a>
+    <a href="#" class="links-right">Terminos</a>
+    <a href="#" class="links-right">Privacidad</a>
+</div>
+</div>
+
 
 </body>
+</html>
